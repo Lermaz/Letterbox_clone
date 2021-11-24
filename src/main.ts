@@ -2,7 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import * as cors from 'cors';
 import * as compression from 'compression';
 import * as express from 'express';
-import * as helmet from 'helmet';
+import helmet from 'helmet';
 import * as rateLimit from 'express-rate-limit';
 import { AppModule } from './app/app.module';
 import { AppLoggerService } from './services/logger.service';
